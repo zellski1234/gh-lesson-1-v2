@@ -32,10 +32,17 @@
 .section-middle {
     height: 60vh;
     background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-middle-upper {
     height: 30vh;
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .container-img {
@@ -46,9 +53,11 @@
 .container-text {
     height: 100%;
     width: 20vw;
+    display: flex;
 }
 
 p {
+    align-self: center;
     font-size: 1.5rem;
     height: 60%;
     text-align: center;
